@@ -173,3 +173,26 @@ function backToTop() {
   document.body.scrollTop = 0; // Với Safari
   document.documentElement.scrollTop = 0; // Với Chrome, Firefox, IE, và Opera
 }
+
+// Chuyển tab project
+document.addEventListener("DOMContentLoaded", function () {
+  const tabs = document.querySelectorAll(".category-list a");
+  const contents = document.querySelectorAll(".project-content");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", function (e) {
+      e.preventDefault(); // Ngăn hành động mặc định của thẻ <a>
+
+      // Xóa class "active" khỏi tất cả các tab và nội dung
+      tabs.forEach((t) => t.classList.remove("active"));
+      contents.forEach((content) => content.classList.remove("active"));
+
+      // Thêm class "active" cho tab được nhấn
+      this.classList.add("active");
+
+      // Hiển thị nội dung tương ứng
+      const targetId = this.getAttribute("data-target");
+      document.getElementById(targetId).classList.add("active");
+    });
+  });
+});
