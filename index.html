@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+<!-- Bootstrap CSS (nền tảng) -->
+<link rel="stylesheet" href="CSS/bootstrap.css">
+
+<!-- Thư viện bổ sung hoặc biểu tượng -->
+<link rel="stylesheet" href="CSS/all.min.css">
+	
+<link rel="stylesheet" href="CSS/lightbox.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+
+<!-- File CSS tùy chỉnh (style của bạn để ghi đè Bootstrap) -->
+<link rel="stylesheet" href="CSS/style.css">
+	
+<link rel="stylesheet" href="CSS/owl.carousel.css">
+<link rel="stylesheet" href="CSS/owl.theme.default.css">
+<link rel="stylesheet" href="CSS/aos.css">
+
+<script src="https://cdn.jsdelivr.net/npm/cursor-effects@latest"></script>
+
+</head>
+<body>
+<!-- Audio -->
+<audio id="background-audio" autoplay preload="auto">
+  <source src="Audio/fantasies-cool-guitar-funk-beat-261532.mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#feature">Nổi bật</a></li>
+		  <li class="nav-item"><a class="nav-link" href="#process">Học vấn</a></li>
+		    <li class="nav-item"><a class="nav-link" href="#process2">Kinh nghiệm</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Dịch vụ</a></li>
+		 <li class="nav-item"><a class="nav-link" href="#skills">Kỹ năng</a></li>
+		<li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+		<li class="nav-item"><a class="nav-link" href="#review">Review</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero-section text-white text-center ms-5 mb-4">
+  <div class="container-fluid d-flex justify-content-center align-items-center px-4 pt-5 mt-5 h-80">
+      <div class="w-80 d-flex flex-column justify-content-center m-5">
+        <h1>Trần Lê Phương Đông</h1>
+        <p>But you can call me <span class="element text-warning"></span></p>
+        <div class="button">
+          <button class="btn btn-dark fw-bold">ĐẶT LỊCH</button>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+  <!-- Thanh nghiêng -->
+<div class="container-fluid p-0 mt-4"> <!-- Xóa padding -->
+  <div class="slanted-bar d-flex align-items-center justify-content-center">
+    <div class="slanted-content text-white text-uppercase">
+      <span>Content Creator</span>
+      <span class="sun-icon mx-2">☀️</span>
+      <span>Copywriter</span>
+      <span class="sun-icon mx-2">☀️</span>
+      <span>Graphic Designer</span>
+	  <span class="sun-icon mx-2">☀️</span>
+	     <span>Content Creator</span>
+      <span class="sun-icon mx-2">☀️</span>
+      <span>Copywriter</span>
+      <span class="sun-icon mx-2">☀️</span>
+      <span>Graphic Designer</span>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Stats Section -->
+  <section class="stats-section text-center mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3><span class="counter" data-counter-time="3000" data-counter-delay="10"> 8 </span></h3>
+          <p>Năm kinh nghiệm</p>
+        </div>
+        <div class="col-md-3">
+          <h3><span class="counter" data-counter-time="10000" data-counter-delay="10"> 1,000 </span></h3>
+          <p>Khách hàng</p>
+        </div>
+        <div class="col-md-3">
+          <h3><span class="counter" data-counter-time="10000" data-counter-delay="10"> 1,500 </span></h3>
+          <p>Project</p>
+        </div>
+        <div class="col-md-3">
+          <h3><span class="counter" data-counter-time="10000" data-counter-delay="10"> 27,000 </span></h3>
+          <p>Reviews</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- About Section -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center position-relative"   data-aos="fade-right" 
+  data-aos-duration="1000"
+  data-aos-easing="linear">
+		 <!-- Hình tròn trang trí -->
+       <div class="circle-decoration"></div>
+        <a href="images/cute-cartoon-kid-posing-portrait.jpg" data-lightbox="review-images">
+		  <img 
+  src="images/cute-cartoon-kid-posing-portrait.jpg" 
+  alt="About Image" 
+  class="rounded-circle img-fluid" 
+  style="width: 400px; height: 400px; object-fit: cover;"                               
+/></a>
+
+      </div>
+      <div class="col-md-6" data-aos="fade-left" 
+  data-aos-duration="1000"
+  data-aos-easing="linear">
+      <h2 class="wave-text" data-text="About Me"></h2>
+
+<p>Hi, mình là Đông. Đông có kinh nghiệm trong việc xây dựng chiến lược Digital Marketing và phát triển kế hoạch nội dung. Là một Content creator kiêm graphic designer, mình hiểu rõ việc kết hợp hiệu quả giữa tư duy thực tế và tính thẩm mỹ, nhằm nâng cao độ nhận diện của một doanh nghiệp trên nhiều nền tảng MXH khác nhau.</p>
+
+
+		 <div class="mt-4">
+          <h6><b>Contact Me:</b></h6>
+          <div class="d-flex gap-3">
+		<!-- Contact -->
+            <a href="https://www.instagram.com/jeffbezos/?hl=enhl=en" target="_blank" 
+  rel="noopener noreferrer"><img src="images/Instagram_logo_2016.svg.webp" alt="Logo 1" class="contact-logo"></a>
+            <a href="https://www.facebook.com/zuck" target="_blank" 
+  rel="noopener noreferrer"><img src="images/Facebook_Logo_(2019).png" alt="Logo 2" class="contact-logo"></a>
+            <a href="https://www.behance.net/phngng87" target="_blank" 
+  rel="noopener noreferrer"><img src="images/images.png" alt="Logo 3" class="contact-logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Dự án nổi bật-->
+<section id="feature" class="featured-projects">
+  <div class="container">
+    <h2 class="section-title">Dự án nổi bật</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="project" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">
+          <img src="images/Bìa opt2.png" alt="Project 1" class="project-image">
+          <div class="project-details">
+            <div class="tags">
+              <span>Brand Identity</span>
+              <span>Logo</span>
+              <span>Poster Design</span>
+              <span>Packaging</span>
+            </div>
+            <h5 class="project-title">Bánh Brownie Ít Ngọt Hopfit</h5>
+            <p class="project-description">Hopfit là thương hiệu bánh Brownie ít ngọt, được thiết kế để trở thành một sự lựa chọn lành mạnh và tiện lợi cho mọi gia đình.</p>
+            <a href="https://www.behance.net/gallery/213619643/D-an-SEM-1-HOPFIT-Arena-Multimedia" 
+               class="btn-flip feature-btn" 
+               data-back="Xem thêm" 
+               data-front="Chi tiết" 
+               target="_blank" 
+               rel="noopener noreferrer"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="project" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">
+          <img src="images/room-decor-with-potted-monstera-plant.jpg" alt="Project 2" class="project-image">
+          <div class="project-details">
+            <div class="tags">
+              <span>Web Design</span>
+              <span>Landing Page</span>
+              <span>Wireframe</span>
+            </div>
+            <h5 class="project-title">Công ty thiết kế & cung cấp nội thất Elementa</h5>
+            <p class="project-description">Elementa là dự án thiết kế và cung cấp nội thất sáng tạo, hướng tới việc mang lại trải nghiệm sống hiện đại và tinh tế cho mọi không gian.</p>
+            <a href="https://tranlephuongdong.github.io/elementa/" 
+               class="btn-flip feature-btn" 
+               data-back="Xem thêm" 
+               data-front="Chi tiết" 
+               target="_blank" 
+               rel="noopener noreferrer"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+<!--process section-->
+<!--Học vấn-->
+<section id="process" class="process-section py-5">
+    <h2 class="text-center mb-5">Trình Độ Học Vấn</h2>
+    <div class="container">
+        <ul class="timeline">
+            <!-- Education 1 -->
+            <li data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title text-primary text-start">Arena Multimedia (2024-2025)</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Học chuyên sâu về Graphic Design với các lĩnh vực như thiết kế thương hiệu (Brand Identity), bao bì sản phẩm (Packaging), thiết kế logo, sách (Book Design), poster, UX/UI và nghiên cứu người dùng (User Research).</p>
+                        <p><b>☀️ Thành tựu:</b> Đồ án xuất sắc, tốt nghiệp kỳ 1 với loại Distinction.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Education 2 -->
+            <li data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="300">
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title text-start">Đại học Ngoại Thương (Cơ sở Hà Nội) (2018-2022)</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Tập trung vào các lĩnh vực Logistics, Marketing, Chiến lược kinh doanh và Truyền thông.</p>
+                        <p><b>☀️ Thành tựu:</b> Ngành Kinh doanh Quốc tế, tốt nghiệp loại Giỏi.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Education 3 -->
+            <li data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="600">
+                <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title text-start">THPT Chuyên Phan Bội Châu (2015-2018)</h4>
+                              </div>
+                    <div class="timeline-body">
+                        <p>Chuyên ngành Tiếng Anh, tích cực tham gia các câu lạc bộ như Debate và CLB Tiếng Anh, phát triển kỹ năng tư duy và giao tiếp quốc tế.</p>
+                        <p><b>☀️ Thành tựu:</b> 12 năm đạt danh hiệu học sinh giỏi.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--Kinh nghiệm làm việc-->  
+<section id="process2" class="process2-section py-5">
+	<h2 class="text-center mb-5">Kinh nghiệm làm việc</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline4">
+                        <div class="timeline" data-aos="zoom-in-left" 
+  data-aos-duration="800"
+  data-aos-easing="linear">
+                            <a href="#" class="timeline-content">
+                                <span class="year">T5/2024-Now</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Content Creator</h3>
+                                    <p class="description">
+                                      Nghiên cứu thị trường và phát triển nội dung cho các chiến dịch thu hút khách hàng: Hợp tác với trưởng nhóm thu hút khách hàng để tạo nội dung quảng cáo, nội dung tối ưu hóa cửa hàng ứng dụng (ASO), và các tài liệu tiếp thị khác được tối ưu hóa cho Google Ads, Facebook và các nền tảng khác.  
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="timeline" data-aos="zoom-in-right" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="300">
+                            <a href="#" class="timeline-content">
+                                <span class="year">2022-2024</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Content Creator</h3>
+                                    <p class="description">
+                                       Phụ trách lập kế hoạch và sản xuất nội dung trên các nền tảng mạng xã hội: Website, Facebook, Instagram, Twitter, Pinterest, TikTok, YouTube, v.v. Phụ trách viết bài SEO và bài PR hàng ngày. 
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="timeline" data-aos="zoom-in-left" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="600">
+                            <a href="#" class="timeline-content">
+                                <span class="year">T5-T10/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Academic Executive</h3>
+                                    <p class="description">
+                                        Tạo nội dung chuẩn SEO; Xem xét và đưa ra phản hồi cho bài luận IELTS của học viên; Hỗ trợ giáo viên nước ngoài trong lớp học  
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="timeline" data-aos="zoom-in-right" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="900">
+                            <a href="#" class="timeline-content">
+                                <span class="year">T3-T5/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">TTS Campaign Planner</h3>
+                                    <p class="description">
+                                       Quản lý các nhiệm vụ triển khai (LDP, MSP, Mockup, KV, Seller Center, FlashSale, Báo cáo); Hỗ trợ xây dựng chiến dịch Câu lạc bộ (Câu lạc bộ Sách); Hỗ trợ quản lý chiến dịch UM/mini UM: 28/4, 5/5  
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+</section>
+	
+  <!-- Services Section -->
+<section id="services" class="services-section">
+  <div class="container">
+    <h2 class="text-center mb-5">Dịch Vụ</h2>
+    <div class="row justify-content-center gx-2 gy-3">
+
+      <!-- Card 1 -->
+      <div class="col-sm-6 col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/brown-retro-electronic-clock-device.png" alt="Content Planning" class="service-image">
+            <h5 class="card-title mt-3">Content Planning</h5>
+            <p class="card-text">Tôi sẽ giúp bạn lên ý tưởng và xây dựng chiến lược nội dung hiệu quả.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-sm-6 col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="200">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/3d-rendering-pen-ai-generated (1).png" alt="Copywriting" class="service-image">
+            <h5 class="card-title mt-3">Copy Writing</h5>
+            <p class="card-text">Tạo ra những nội dung độc đáo và thu hút sự chú ý từ khách hàng.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="400">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/beauty-product-container-single-object-close-up-plastic-jar-bottle-paintbrush-make-up-colors-liquid-generated-by-artificial-intelligence.png" alt="Graphic Design" class="service-image">
+            <h5 class="card-title mt-3">Graphic Design</h5>
+            <p class="card-text">Biến ý tưởng thành những sản phẩm trực quan bắt mắt.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+		<!-- Card 4 -->
+		 <div class="col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/3d-rendering-computer-desk.png" alt="Web Design" class="service-image">
+            <h5 class="card-title mt-3">Web Design</h5>
+            <p class="card-text">Website giới thiệu doanh nghiệp, LDP bán hàng.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+		<!-- Card 5 -->
+		 <div class="col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="200">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/realistic-phone-studio-social-media-concept.png" alt="Social Media" class="service-image">
+            <h5 class="card-title mt-3">Social Media</h5>
+            <p class="card-text">Tạo nội dung hàng tháng, tăng tương tác trên các nền tảng MXH.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+		<!-- Card 6 -->
+		 <div class="col-md-4" data-aos="flip-down" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-delay="400">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/3d-floating-megaphone-with-radiating-sound-waves-symbolizing-advocacy-activism-human-rights.png" alt="Marketing Campaign Planning" class="service-image">
+            <h5 class="card-title mt-3">Marketing Campaign Planning</h5>
+            <p class="card-text">Tư vấn, triển khai, phân tích các chiến dịch Marketing.</p>
+            <button class="btn btn-warning fw-bold">Tham khảo</button>
+          </div>
+        </div>
+      </div>
+		
+    </div>
+  </div>
+</section>
+
+
+
+ <!--KỸ NĂNG-->
+<section id="skills" class="skills-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Kỹ năng</h2>
+    <div class="row justify-content-center">
+      <!-- Cột trái -->
+      <div class="col-lg-6 mb-3">
+        <span><b>Photoshop</b></span>
+        <div class="progress mb-3" >
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">80%</div>
+        </div>
+
+        <span><b>Indesign</b></span>
+        <div class="progress mb-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">80%</div>
+        </div>
+
+        <span><b>Illustrator</b></span>
+        <div class="progress mb-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">80%</div>
+        </div>
+      </div>
+
+      <!-- Cột phải -->
+      <div class="col-lg-6 mb-3">
+        <span><b>HTML-CSS-JS</b></span>
+        <div class="progress mb-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">70%</div>
+        </div>
+
+        <span><b>User Research</b></span>
+        <div class="progress mb-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">70%</div>
+        </div>
+
+        <span><b>UI/UX Design</b></span>
+        <div class="progress mb-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" data-aos-duration="800" 
+         data-aos-easing="linear" data-aos-offset="180" data-aos-delay="300">80%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+
+      <!-- Project -->
+<section id="project" class="project-section">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Sidebar for Categories -->
+      <div class="col-lg-3 col-md-4" data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+  data-aos-offset="200">
+        <div class="categories">
+          <h3>Danh sách</h3>
+          <ul class="category-list">
+            <li class="#"><a href="#" data-target="brand-identity">Brand Identity</a></li>
+            <li><a href="#" data-target="magazine">Magazine</a></li>
+            <li><a href="#" data-target="content-planning">Content Planning</a></li>
+            <li><a href="#" data-target="copy-writing">Copy Writing</a></li>
+            <li><a href="#" data-target="packaging">Packaging</a></li>
+			<li><a href="#" data-target="video">Video</a></li>
+            <li><a href="#" data-target="other">Other</a></li>
+			 <li><i style="font-style: italic; font-size: 0.8rem; color: #888888;">
+  *Một số source chỉ mang tính minh họa
+</i></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="col-lg-9 col-md-8" data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear"
+data-aos-offset="200">
+        <!-- Brand Identity -->
+        <div class="project-content active" id="brand-identity">
+
+	<img src="images/Doc for web44.jpg" alt="Project Image 1" class="img-fluid small">
+
+		
+          <img src="images/Doc for web36.jpg" alt="Project Image 2" class="img-fluid small">
+
+		  <img src="images/Doc for web80.jpg" alt="Project Image 31" class="img-fluid large">
+			
+          <img src="images/Doc for web34.jpg" alt="Project Image 3" class="img-fluid small">
+			
+		  <img src="images/Doc for web29.jpg" alt="Project Image 32" class="img-fluid small">
+        </div>
+
+        <!-- Magazine -->
+        <div class="project-content" id="magazine">
+          <img src="images/003_TFB_04.png" alt="Project Image 4" class="img-fluid small">
+          <img src="images/2964555.png" alt="Project Image 5" class="img-fluid small">
+          <img src="images/A4 CATALOG BROCHURE MOCKUP-04.png" alt="Project Image 6" class="img-fluid large">
+        </div>
+
+        <!-- Content Planning -->
+        <div class="project-content" id="content-planning">
+          <img src="images/Monthly-Content-Action-Plan-Template-min.png" alt="Project Image 7" class="img-fluid small">
+          <img src="images/content-template-min.jpg" alt="Project Image 8" class="img-fluid small">
+        </div>
+
+        <!-- Copy Writing -->
+        <div class="project-content" id="copy-writing">
+          <img src="images/content-template-min.jpg" alt="Project Image 10" class="img-fluid tall">
+          <img src="images/Table_Of_Content_For_Proposal_For_PR_Campaign_One_Pager_Sample_Example_Document_Slide_1.jpg" alt="Project Image 11" class="img-fluid tall">
+        </div>
+
+        <!-- Packaging -->
+        <div class="project-content" id="packaging">
+            <img src="images/Doc for web63-fotor-20241227173636.jpg" alt="Project Image 15" class="img-fluid large">
+			<img src="images/153.png" alt="Project Image 13" class="img-fluid small">
+          <img src="images/274.png" alt="Project Image 14" class="img-fluid small">
+        </div>
+		  
+		 <!-- Video -->
+<div class="project-content" id="video">
+  <!-- Video 1 -->
+  <div class="video-item">
+    <iframe 
+      src="https://www.youtube.com/embed/-o8JbKQVw88" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <!-- Video 2 -->
+  <div class="video-item">
+    <iframe 
+      src="https://www.youtube.com/embed/78t7DWEwrVU" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <!-- Video 3 -->
+  <div class="video-item">
+    <iframe 
+      src="https://www.youtube.com/embed/ThXZeEG0gaI" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+<!-- Other -->
+        <div class="project-content" id="other">
+          <img src="images/z6055486063658_888c6d176445b27621f128ff037964a3.jpg" alt="Project Image 16" class="img-fluid random">
+          <img src="images/z6055486008579_d93f83e3a40a22cf7161b1c339c45804.jpg" alt="Project Image 17" class="img-fluid random">
+          <img src="images/z6055486153155_3494c044cd4b033dc3743868995f8acd.jpg" alt="Project Image 18" class="img-fluid random">
+		  <img src="images/z6055486118720_320d62c012115f127da67a18e4635a9d.jpg" alt="Project Image 19" class="img-fluid random">
+		   <img src="images/z6055485961013_697a0401eee0f8c1f7c1efedae846813.jpg" alt="Project Image 20" class="img-fluid random">
+		 <img src="images/soda_can_6.png" alt="Project Image 21" class="img-fluid random">
+		 <img src="images/107_c.png" alt="Project Image 22" class="img-fluid random">
+		<img src="images/document jpeg178.jpg" alt="Project Image 23" class="img-fluid random">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!--Customer reviews-->
+<section id="review" class="project-review">
+  <h2 class="text-center mb-4">Reviews</h2>
+  <div class="slider-container">
+    <!-- Owl Carousel Slider -->
+    <div class="owl-carousel owl-theme">
+      <!-- Item 1 -->
+      <div class="item">
+        <div class="card">
+          <a href="images/345c6d52234bbc72407ea25d49ad945e.jpg" data-lightbox="review-images" data-title="Phong cách thiết kế hiện đại, phù hợp với mong muốn của tôi. Rất cảm ơn!">
+			<img
+            src="images/345c6d52234bbc72407ea25d49ad945e.jpg"
+            alt="Image 1" 
+				 /></a>
+			
+          <div class="card-content">
+            <p class="username">@samanthabrown</p>
+            <p class="comment">
+              "Phong cách thiết kế hiện đại, phù hợp với mong muốn của tôi. Rất cảm ơn!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="item">
+        <div class="card">
+          <a href="images/177989671f5e37ae3c9d7bdb417a031e.jpg" data-lightbox="review-images" data-title="Thiết kế của bạn thật sự rất sáng tạo, từng chi tiết đều tinh tế và hoàn thiện.">
+			<img
+            src="images/177989671f5e37ae3c9d7bdb417a031e.jpg"
+            alt="Image 2"
+				 /></a>
+          <div class="card-content">
+            <p class="username">@dungguyen</p>
+            <p class="comment">
+              "Thiết kế của bạn thật sự rất sáng tạo, từng chi tiết đều tinh tế và hoàn thiện."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="item">
+        <div class="card">
+          <a href="images/ae70c0fdc9381b07dac1d39d72ac913a.jpg" data-lightbox="review-images" data-title="Mọi thứ được hoàn thành nhanh chóng và chất lượng tuyệt vời. Tôi rất hài lòng!">
+			<img
+            src="images/ae70c0fdc9381b07dac1d39d72ac913a.jpg"
+            alt="Image 3"
+          /></a>
+          <div class="card-content">
+            <p class="username">@anhthu</p>
+            <p class="comment">
+              "Mọi thứ được hoàn thành nhanh chóng và chất lượng tuyệt vời. Tôi rất hài lòng!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="item">
+        <div class="card">
+          <a href="images/b3e5db5a3bf1399f74500a6209462794.jpg" data-lightbox="review-images" data-title="Bạn đã thực sự mang đến một sản phẩm vượt mong đợi. Cảm ơn vì sự chuyên nghiệp!">
+			<img
+            src="images/b3e5db5a3bf1399f74500a6209462794.jpg"
+            alt="Image 4" 
+				 /></a>
+          <div class="card-content">
+            <p class="username">@michaeljohnson</p>
+            <p class="comment">
+             "Bạn đã thực sự mang đến một sản phẩm vượt mong đợi. Cảm ơn vì sự chuyên nghiệp!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="item">
+        <div class="card">
+         <a href="images/b80ad9fd48f0b1e8d404775c495633be.jpg" data-lightbox="review-images" data-title="Thiết kế phù hợp với thương hiệu của tôi. Mọi chi tiết đều rất chỉn chu và đẹp mắt.">
+			<img
+            src="images/b80ad9fd48f0b1e8d404775c495633be.jpg"
+				 alt="Image 5"></a>
+          <div class="card-content">
+            <p class="username"> @thanhhuy</p>
+            <p class="comment">"Thiết kế phù hợp với thương hiệu của tôi. Mọi chi tiết đều rất chỉn chu và đẹp mắt."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!--Nút di chuyển-->
+  <button class="custom-prev">❮</button>
+    <button class="custom-next">❯</button>
+</div>
+</section>
+
+
+
+
+  <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container" data-aos="fade-up" 
+  data-aos-duration="800"
+  data-aos-easing="linear">
+    <div class="contact-header text-center mb-4">
+      <h2>Liên hệ Ngay</h2>
+    </div>
+    <div class="row contact-content align-items-center">
+      <!-- Cột trái: Form -->
+      <div class="col-md-6 contact-form mb-4 mb-md-0">
+        <p>Mình có thể giúp gì cho bạn?</p>
+        <div class="form-options d-flex flex-wrap gap-2 mb-3">
+          <button class="option-btn">Brand Identity</button>
+          <button class="option-btn">Social Media</button>
+          <button class="option-btn">Website</button>
+          <button class="option-btn">Video</button>
+          <button class="option-btn">Other</button>
+        </div>
+        <form>
+          <div class="form-group d-flex flex-column flex-md-row gap-2 mb-3">
+            <input type="text" class="form-control" placeholder="Họ tên" required />
+            <input type="email" class="form-control" placeholder="Email" required />
+          </div>
+          <textarea class="form-control mb-3" placeholder="Yêu cầu của bạn" required></textarea>
+          <button type="submit" class="submit-btn btn btn-yellow w-100"><b></b>Gửi yêu cầu</button>
+        </form>
+      </div>
+      <!-- Cột phải: Thông tin -->
+      <div class="col-md-6 contact-info text-md-start text-center">
+        <p>
+          Hãy chia sẻ với mình tầm nhìn về dự án sắp tới và những mục tiêu bạn muốn đạt được. Bạn đang gặp những khó khăn nào, hay có kỳ vọng đặc biệt gì cho sự thành công của dự án? Mình luôn sẵn sàng lắng nghe, tư vấn và đồng hành để biến ý tưởng của bạn thành hiện thực!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+	<!-- Back to top -->
+<button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+  <i class="fas fa-angle-up"></i>
+</button>
+
+	
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Trần Lê Phương Đông. All rights reserved.</p>
+  </footer>
+
+	
+  <!-- jQuery -->
+<!-- Link JavaScript (đặt cuối để tải nhanh hơn) -->
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Waypoints (để hỗ trợ các hiệu ứng scroll hoặc CountUp) -->
+<script src="Js/jquery.waypoints.min.js"></script>
+
+<!-- CountUp (dùng cho hiệu ứng số đếm) -->
+<script src="Js/jquery.countup.js"></script>
+
+<!-- Owl Carousel (nếu có sử dụng slider) -->
+<script src="Js/owl.carousel.js"></script>
+	
+<script src="Js/lightbox.js"></script>
+
+<!-- Custom scripts -->
+<script src="Js/control.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/port.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+	 <script>
+    // Hiệu ứng trailingCursor
+    new cursoreffects.trailingCursor({
+      particles: 15,
+      rate: 0.8,
+      baseImageSrc: "data:image/png;base64,iVBORw0..." // Thay bằng ảnh sparkle base64
+    });
+
+    // Hoặc hiệu ứng followingDotCursor
+    new cursoreffects.followingDotCursor({
+      color: ["#ff0000"] // Màu đỏ
+    });
+  </script>
+
+
+</body>
+</html>
